@@ -1,0 +1,10 @@
+Datos importante antes de la  instalación de  php, estos textos solo se enfocan a la web  y los demás fueron omitidos 
+
+-----------------------------------------------------------------------------------------
+La opción mas sencilla 
+------------------------
+Para la primera forma mencionada, que es la más común, se necesitan tres cosas: PHP, un servidor web y un navegador web. Seguramente ya disponga del navegador web y, dependiendo de la configuración del sistema operativo, quizá ya tenga un servidor web (p.ej. Apache en Linux y macOS; IIS en Windows). También puede alquilar espacio web en una empresa. De esta forma, no se necesita instalar nada, solo tiene que escribir los scripts de PHP, subirlos al servidor que alquile y ver los resultados en su navegador.
+-----------------------------------------------------------------------------------------
+
+
+En caso de configurar el servidor y PHP por su cuenta, existen dos opciones para el modo de conectar PHP con el servidor. Para muchos servidores, PHP tiene un módulo de interfaz directo (también llamado SAPI). Entre estos servidores se incluyen Apache, Microsoft Internet Information Server, Netscape y iPlanet. Muchos otros servidores tienen soporte para ISAPI, el módulo de interfaz de Microsoft (OmniHTTPd por ejemplo). Si PHP no tiene soporte para el módulo de su servidor web, siempre puede usarlo como procesador CGI o FastCGI. Esto significa configurar el servidor para usar el CGI ejecutable de PHP para procesar cada una de las peticiones a ficheros PHP en el servidor. 
