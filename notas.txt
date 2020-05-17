@@ -17,3 +17,5 @@ Referencias del lenguaje
 ------------------------------------------------------------------------------------------
 La documentación comienza a partir del directorio 3-Referencia-del-lenguaje gracias a que existen paquetes de instalación que facilitan la tarea de ser necesario volveré a buscar las instrucciones iniciales, por ahora no es necesario leer esto 
 ------------------------------------------------------------------------------------------
+
+https://www.php.net/manual/es/
