@@ -1,0 +1,53 @@
+PHP admite diez tipos primitivos.
+
+Cuatro tipos escalares:
+
+    boolean
+    integer
+    float (número de punto flotante, también conocido como double)
+    string
+
+Cuatro tipos compuestos:
+
+    array
+    object
+    callable
+    iterable
+
+Y finalmente dos tipos especiales:
+
+    resource
+    NULL
+
+Este manual presenta también algunos seudotipos por razones de legibilidad:
+
+    mixed
+    number
+    callback (también conocido como callable)
+    array|object
+    void
+
+Y la pseudo variable $....
+
+Puede que existan aún algunas referencias al tipo "double" en el manual. Considere al tipo double como float; los dos nombres existen sólo por razones históricas.
+
+El tipo de una variable usualmente no lo declara el programador; al contrario, es decidido en tiempo de ejecución por PHP dependiendo del contexto en el que se emplea dicha variable. 
+
+
+=====================================================================================
+==========================
+** No logro entender esto 
+==========================
+
+// El 'vacío' de pseudo-tipo usado por razones de legibilidad al comienzo 
+// de un prototipo de función. Significa que su 'tipo de retorno' 
+// debe omitir su declaración de retorno por completo o utilizar 
+// una declaración de retorno vacía. Sin embargo, no se espera NULL 
+// como un valor de retorno válido para una función anulada.
+
+<?php
+   // Esta función no tiene nada que devolver
+
+         (void) unset ( mixed $var [, mixed $... ] )
+?>
+=====================================================================================
