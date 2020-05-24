@@ -1,7 +1,8 @@
 
 <?php
 var_dump((bool) ""); // bool(false)
-echo 'var_dump((bool) ""); <hr/>';
+echo '<hr/>';
+// echo 'var_dump((bool) ""); <hr/>';
 var_dump((bool) 1); // bool(true)
 echo 'var_dump((bool) 1); <hr/>';
 var_dump((bool)  - 2); // bool(true)
